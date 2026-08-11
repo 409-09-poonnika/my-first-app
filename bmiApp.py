@@ -33,3 +33,6 @@ if st.button("คำนวณ BMI"):
         st.warning("อยู่ในเกณฑ์อ้วนระดับ 1")
     else:
         st.error("อยู่ในเกณฑ์อ้วนระดับ 2")
+        
+st.divider()
+st.write("นางสาวปุณณิกา ตันธะดา")
