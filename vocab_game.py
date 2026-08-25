@@ -147,8 +147,4 @@ if st.session_state.get("is_ended", False):
 
 
 st.divider()
-
-st.write("🍎 หมวดผลไม้ (Fruits)")
-st.write(🍎 Apple | 🍏 Green Apple | 🍌 Banana | 🍊 Orange | 🍋 Lemon | 🍇 Grapes | 🍓 Strawberry | 🫐 Blueberry | 🍉 Watermelon | 🍍 Pineapple | 🥭 Mango | 🍑 Peach | 🍒 Cherry | 🥥 Coconut | 🥑 Avocado")
-
 st.write("นางสาวปุณณิกา ตันธะดา เลขที่ 9 ม.4/9")
