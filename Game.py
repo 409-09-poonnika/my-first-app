@@ -128,9 +128,12 @@ if "start" in st.session_state and not st.session_state.get("is_ended", False):
 
 st.divider()
     # แสดงผลคะแนน
-    if :
-    elif score == 5:
-        st.success("🎉 อย่าโหดคร้าบจารย์! ตอบถูกทั้งหมด 5 ข้อ")
+if score == 5:
+    st.success("🎉 อย่าโหดคร้าบจารย์! ตอบถูกทั้งหมด 5 ข้อ")
+elif score >= 3:
+    st.info("👍 So Very Good but พยายามอีกนิสส์")
+else:
+    st.warning("ลองทบทวนตารางธาตุแล้วเล่นใหม่อีกครั้ง")
     elif score >= 3:
         st.info("👍 So Very Good but พยายามอีกนิสส์")
     else:
